@@ -202,7 +202,7 @@
       let portfolioFilters = select('#portfolio-flters li', true);
       // THIS LINE IS TO MAKE EMOTES SHOW BY DEFAULT
       portfolioIsotope.arrange({
-        filter: '.filter-ca'
+        filter: '.filter-emotes'
       });
 
       portfolioIsotope.on('arrangeComplete', function() {
